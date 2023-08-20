@@ -1,0 +1,25 @@
+.card
+{
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 0px;
+  border-radius: 4px;
+  box-shadow: inset;
+
+ 
+}
+
+.info-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    background-color:rgb(255, 208, 0);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: none;
+    z-index: 999;
+  }
